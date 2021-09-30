@@ -1,34 +1,11 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+https://accounts.spotify.com/authorize?client_id=4b2fc73098ad42f4babbfb707cdd4dbc&response_type=code&redirect_uri=http%3A%2F%2Flocalhost:3000/&scope=streaming%20user-read-email%20user-read-private%20user-read-playback-state%20user-modify-playback-state
 
-## Getting Started
+AQCTaCgIcwNliemwDHpo0at7BoxT6ee449x1Pnogon4WgVl71YIAjHoxWYmu6McZmc8WeA0ZKwxGUkAHzC1pu6JCarIqrF3uJmbQY3W44uzsiTd5lH8Q2NeHvqKqPqAPjFL2T1pgHb9M1oKKVBulZQ93WC2-yilBZ-yxJXwwhtpRp1K-cEU\_-3bQ52FsOeN9YZmAFNL3NYiivS6D3fQNbugEhqf6SQ78QYX1lY3CSU2vblGrAAxxZ7LgV1Ry5UjaUth477F5U11HHVfhEcmCWuRiPKOtUtMs6hSnt2L35A
 
-First, run the development server:
+encoded - NGIyZmM3MzA5OGFkNDJmNGJhYmJmYjcwN2NkZDRkYmM6NjE2ZDIxNDI1NDViNDBhNmE1YTVjZTg1MThlMGJhY2Y=
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+curl -H "Authorization: Basic NGIyZmM3MzA5OGFkNDJmNGJhYmJmYjcwN2NkZDRkYmM6NjE2ZDIxNDI1NDViNDBhNmE1YTVjZTg1MThlMGJhY2Y=" -d grant_type=authorization_code -d code=AQCTaCgIcwNliemwDHpo0at7BoxT6ee449x1Pnogon4WgVl71YIAjHoxWYmu6McZmc8WeA0ZKwxGUkAHzC1pu6JCarIqrF3uJmbQY3W44uzsiTd5lH8Q2NeHvqKqPqAPjFL2T1pgHb9M1oKKVBulZQ93WC2-yilBZ-yxJXwwhtpRp1K-cEU\_-3bQ52FsOeN9YZmAFNL3NYiivS6D3fQNbugEhqf6SQ78QYX1lY3CSU2vblGrAAxxZ7LgV1Ry5UjaUth477F5U11HHVfhEcmCWuRiPKOtUtMs6hSnt2L35A -d redirect_uri=http%3A%2F%2Flocalhost:3000/ https://accounts.spotify.com/api/token
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+refresh token = AQC4RlVsZgsuf4tJVxJp8azbhw-BgsOJ-Od7Vl2shi7E_HDpbi77qCVbhScy08DG-PTjncvaVUzqcg2B8LhmS1d-HyiFEkOx6-1S7UgRqms6EsjOTZsvoIb1RCSTAyZKjHs
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+{"access_token":"BQB3vWRaCaiOVNh0AWv8SgxH7xGLtPutD2jnYXsm1GV17WpkxN8aSPPpr9oPu9Dh9kfm-Zk4Uf3OyGLDBauWg2fEI279tvZ0fMcWM4X2HG2lXWkYbaW4ywOj8zdP2LyYyHNLxZSrE6R3Jymfc3RW0P-NIVQaQBEBuZOgx-sA-Qz-NDhOo6AqdK334lye6d4","token_type":"Bearer","expires_in":3600,"refresh_token":"AQC4RlVsZgsuf4tJVxJp8azbhw-BgsOJ-Od7Vl2shi7E_HDpbi77qCVbhScy08DG-PTjncvaVUzqcg2B8LhmS1d-HyiFEkOx6-1S7UgRqms6EsjOTZsvoIb1RCSTAyZKjHs","scope":"streaming user-modify-playback-state user-read-playback-state user-read-email user-read-private"}
